@@ -11,5 +11,6 @@ namespace Training.Entidades
         public int ID { get; set; }
         public string Nombre { get; set; }
         public List<Persona> Alumnos { get; set; }
+        public string Ubicacion { get; set; }
     }
 }
