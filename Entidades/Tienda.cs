@@ -9,20 +9,22 @@ namespace Training.Entidades
 {
     internal class Tienda
     {
-        public int ID;
-        public string name;
-        public string price;
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public string Price { get; set; }
+
+
 
         public Tienda(int iD, string name, string price)
         {
             ID = iD;
-            this.name = name;
-            this.price = price;
+            this.Name = name;
+            this.Price = price;
         }
 
         public string information()
         {
-            return $"{name} de valor {price}";
+            return $"{Name} de valor {Price}";
         }
     }
 }
