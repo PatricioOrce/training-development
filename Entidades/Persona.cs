@@ -12,5 +12,6 @@ namespace Training.Entidades
         public string Nombre { get; set; }
         public string Apellido { get; set; }
         public long Dni { get; set; }
+        public DateTime FechaDeNacimiento { get; set; }
     }
 }
