@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace Training.Entidades
 {
-    public class Persona
+    public class Escuela
     {
         public int ID { get; set; }
         public string Nombre { get; set; }
-        public string Apellido { get; set; }
-        public long Dni { get; set; }
-        public TimeSpan FechaDeNacimiento { get; set; }
+        public List<Persona> Alumnos { get; set; }
     }
 }
